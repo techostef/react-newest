@@ -17,7 +17,7 @@ function Autocomplate ({ onChange, options, searchKey, onClick, label, isLoading
   return (
     <div className={styles.container}>
       <TextField 
-        id="outlined-basic" 
+        id="input-autocomplate" 
         label={label} 
         onFocus={() => setIsOpen(true)}
         onBlur={() => {
